@@ -57,10 +57,6 @@ function calcFlujo(peso){
     if (resto > 30){
         //Superficie corporal = ( (peso * 4) + 7) / (peso + 90)
         let superCorpo = ((resto * 4) + 7) / (resto + 90);
-        /*let aux = resto + 90;
-        console.log("aux",aux);
-        superCorpo = superCorpo + 7;
-        superCorpo = superCorpo / aux;  */      
         return superCorpo;
     } else  if (resto>20) {
         let aux = resto-20;
